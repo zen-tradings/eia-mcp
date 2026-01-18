@@ -91,25 +91,15 @@ Or if installed as a package:
 
 ## Example Queries
 
-### Get California electricity retail sales
-```
-Use eia_electricity_retail_sales with state="CA", frequency="monthly", start="2024-01"
-```
+Just ask Claude naturally:
 
-### Get real-time ERCOT grid data
-```
-Use eia_electricity_rto with respondent="ERCO", route="region-data"
-```
-
-### Get natural gas storage levels
-```
-Use eia_natural_gas_storage with route="wkly", frequency="weekly"
-```
-
-### Explore available routes
-```
-Use eia_explore_routes with path="electricity" to see all electricity sub-routes
-```
+- "What were California's electricity retail sales in 2024?"
+- "Show me the current electricity generation in ERCOT"
+- "What are the natural gas storage levels this week?"
+- "How much electricity did Texas generate last month?"
+- "Compare natural gas prices across different regions"
+- "What's the electricity demand in PJM right now?"
+- "Show me natural gas import/export data for 2024"
 
 ## API Reference
 
